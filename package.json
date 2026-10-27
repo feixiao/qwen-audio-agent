@@ -281,7 +281,7 @@
     "test:desktop-package": "npm run build && node scripts/test/desktop-package-smoke.mjs",
     "test:web-browser": "node scripts/test/browser-webui-smoke.mjs",
     "desktop:build": "node scripts/check-desktop-release-env.mjs && npm run build && electron-builder --config desktop/electron-builder.yml --mac dmg zip",
-    "desktop:build:local": "npm run build && electron-builder --config desktop/electron-builder.yml --config.mac.identity=- --config.mac.hardenedRuntime=false --config.mac.notarize=false --mac dmg",
+    "desktop:build:local": "npm run build && electron-builder --config desktop/electron-builder.yml --config.mac.identity=- --config.mac.hardenedRuntime=false --config.mac.notarize=false --mac dmg --publish never",
     "desktop:build:linux": "npm run build && electron-builder --config desktop/electron-builder.yml --linux AppImage deb",
     "desktop:build:win": "npm run build && electron-builder --config desktop/electron-builder.yml --win --x64 --publish never",
     "mobile:build": "npm run build --workspace @qwen-audio-agent/mobile",

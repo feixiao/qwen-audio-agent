@@ -1,6 +1,6 @@
 # Example Index
 
-Examples demonstrate extension points; they are not the only way to enable a capability. Complete the [source installation](../getting-started/install.md#install-from-source), then follow each example's README for dependencies and configuration. Examples usually run on separate ports—do not substitute the standard Gateway address.
+Examples demonstrate extension points; they are not the only way to enable a capability. Complete the [source installation](../getting-started/install.md#install-from-source), then follow each example's README for dependencies and configuration. Examples usually run on separate ports—do not substitute the standard Gateway address. See [Demo Feature Overview](demo-features.md) for detailed capability matrices across all demos.
 
 | What you want to explore | Start here |
 | --- | --- |

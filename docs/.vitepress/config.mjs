@@ -113,6 +113,7 @@ function sidebar(prefix = '') {
       text: t('示例与参考', 'Examples & Resources'), collapsed: true,
       items: [
         page('选择示例', 'Example Index', 'scenarios/index'),
+        page('Demo 功能全景', 'Demo Feature Overview', 'scenarios/demo-features'),
         page('智能座舱', 'Smart Cockpit', 'scenarios/smart-cockpit'),
         page('客服语音助手', 'Customer Service', 'scenarios/customer-service'),
         page('AI Passport', 'AI Passport', 'scenarios/ai-passport'),
